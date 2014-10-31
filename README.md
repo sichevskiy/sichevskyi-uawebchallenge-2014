@@ -34,7 +34,8 @@ vagrant up
 
 ## Now you should be able to use resources
 
-http://balancer.192.168.42.20.local
+- http://balancer.192.168.42.20.xip.io
+- http://db.192.168.42.20.xip.io
 
 ## How to connect to virtual machine via ssh
 

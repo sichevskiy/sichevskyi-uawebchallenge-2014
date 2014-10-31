@@ -31,7 +31,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # https://github.com/cogitatio/vagrant-hostsupdater
         if Vagrant.has_plugin?("vagrant-hostsupdater")
           balancer.hostsupdater.remove_on_suspend = true
-          balancer.vm.hostname = "192.168.42.20.local"
+          balancer.vm.hostname = "192.168.42.20.xip.io"
         end
         if Vagrant.has_plugin?("vagrant-cachier")
           balancer.cache.auto_detect = true
