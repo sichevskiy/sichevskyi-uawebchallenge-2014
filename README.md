@@ -28,7 +28,7 @@ sudo apt-get install nfs-kernel-server nfs-common portmap
 ## Run vagrant
 
 ```
-cd /var/www/sichevskyi-uawebchallenge-2014/
+cd c:/sichevskyi-uawebchallenge-2014/
 vagrant up
 ```
 
@@ -39,6 +39,6 @@ http://balancer.192.168.42.20.xip.io
 ## How to connect to virtual machine via ssh
 
 ```
-cd /var/www/sichevskyi-uawebchallenge-2014/
+cd c:/sichevskyi-uawebchallenge-2014/
 vagrant ssh
 ```
